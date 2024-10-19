@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\bin\Debug\PlotvaEdition.exe.config
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\bin\Debug\PlotvaEdition.exe
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\bin\Debug\PlotvaEdition.pdb
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\App.g.cs
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition_MarkupCompile.cache
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition_MarkupCompile.lref
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition.g.resources
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition.Properties.Resources.resources
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition.csproj.GenerateResource.cache
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition.exe
+C:\Users\User\Desktop\5 семестр\Фреймворки\PlotvaEdition\PlotvaEdition\obj\Debug\PlotvaEdition.pdb
