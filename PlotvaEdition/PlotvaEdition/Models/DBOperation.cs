@@ -7,6 +7,7 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace PlotvaEdition.Models
 {
@@ -34,6 +35,51 @@ namespace PlotvaEdition.Models
                 sqlConnection.Close();
             }
         }
+
+        public User AuthenticateUser(string phone, string password)
+        {
+            string query = "SELECT Phone, Password, Role FROM Users WHERE Phone = @Phone AND Password = @Password";
+
+            try
+            {
+                using (SqlCommand command = new SqlCommand(query, sqlConnection))
+                {
+                    // Используем параметры для защиты от SQL-инъекций
+                    command.Parameters.AddWithValue("@Phone", phone);
+                    command.Parameters.AddWithValue("@Password", password);
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            // Чтение данных из результата запроса
+                            string dbPhone = reader["Phone"].ToString();
+                            string dbPassword = reader["Password"].ToString();
+                            string dbRole = reader["Role"].ToString();
+
+                            int.TryParse(dbPhone, out int DBphone);
+
+                            // Возвращаем объект Account с нужными полями
+                            return new User(DBphone, dbPassword, dbRole);
+                        }
+                        else
+                        {
+                            // Если пользователь не найден, возвращаем null
+                            return null;
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                // Ловим ошибки и выводим сообщение в консоль для отладки
+                Console.WriteLine("Error: " + ex.Message);
+                return null;
+            }
+        }
+
+       
 
     }
 }

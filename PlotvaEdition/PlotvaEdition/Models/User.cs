@@ -8,10 +8,18 @@ namespace PlotvaEdition.Models
 {
     internal class User
     {
-        public int UserId { get; set; }
+        public int UserPhone { get; set; }
+        public string UserPassword { get; set; }
+        public string Role { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string MiddleName { get; set; }
-        public string Role { get; set; }
+
+        public User(int Userphone, string Userpassword, string role)
+        {
+            UserPhone = Userphone;
+            UserPassword = Userpassword;
+            Role = role;
+        }
     }
 }

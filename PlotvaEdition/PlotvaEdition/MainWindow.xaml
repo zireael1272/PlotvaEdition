@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="Вхід" Height="550" Width="450">
     <Grid x:Name="ManeRoot" Background="White">
-        
+        <TextBox Name="NumberPhone" HorizontalAlignment="Center" Margin="0,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Password" HorizontalAlignment="Center" Margin="0,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Name="Autorizate" Content="Увійти" HorizontalAlignment="Center" Margin="0,247,0,0" VerticalAlignment="Top" Width="64" Click="Autorizate_Click"/>
+
     </Grid>
 </Window>
