@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PlotvaEdition"
         mc:Ignorable="d"
-        Title="Головний екран" Height="450" Width="800">
-    <Grid x:Name="ManeRoot">
+        Title="Вхід" Height="550" Width="450">
+    <Grid x:Name="ManeRoot" Background="White">
         
     </Grid>
 </Window>

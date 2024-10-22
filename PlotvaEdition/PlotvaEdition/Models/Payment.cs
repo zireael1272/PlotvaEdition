@@ -9,9 +9,9 @@ namespace PlotvaEdition.Models
     internal class Payment
     {
         public int PaymentId { get; set; }
-        public decimal Amount { get; set; } 
-        public decimal Discount { get; set; }
-        public decimal FinalAmount
+        public double Amount { get; set; } 
+        public double Discount { get; set; }
+        public double FinalAmount
         {
             get
             {

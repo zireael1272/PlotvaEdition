@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\models\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\models\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\viewmodels\\trackingpackagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\viewmodels\\trackingpackagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,26 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DBOperation.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Models\\DBOperation.cs",
-              "RelativeDocumentMoniker": "PlotvaEdition\\Models\\DBOperation.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Models\\DBOperation.cs",
-              "RelativeToolTip": "PlotvaEdition\\Models\\DBOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB1AAAAAAAAAA==",
+              "Title": "TrackingPackageVM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\ViewModels\\TrackingPackageVM.cs",
+              "RelativeDocumentMoniker": "PlotvaEdition\\ViewModels\\TrackingPackageVM.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\ViewModels\\TrackingPackageVM.cs",
+              "RelativeToolTip": "PlotvaEdition\\ViewModels\\TrackingPackageVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:16:49.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "PlotvaEdition\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml",
-              "RelativeToolTip": "PlotvaEdition\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-19T20:16:24.268Z",
+              "WhenOpened": "2024-10-20T15:00:42.849Z",
               "EditorCaption": ""
             }
           ]
