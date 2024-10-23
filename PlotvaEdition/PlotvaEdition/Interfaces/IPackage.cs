@@ -19,6 +19,6 @@ namespace PlotvaEdition.Interfaces
         DateTime CriticalDate { get; set; }
         DateTime DeliveryDate { get; set; }
 
-        Payment PaymentDetails { get; set; }
+        Payments PaymentDetails { get; set; }
     }
 }

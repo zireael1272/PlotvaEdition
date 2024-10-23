@@ -8,78 +8,63 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using MySqlX.XDevAPI;
+using Microsoft.EntityFrameworkCore;
+using System.Runtime.Remoting.Contexts;
+using System.Data.Entity;
 
 namespace PlotvaEdition.Models
 {
-    internal class DBOperation
+    public class DBOperation
     {
-        private SqlConnection sqlConnection = null;
-        public DBOperation()
+        private readonly DeliveryDbContext context;
+        public DBOperation(DeliveryDbContext context)
         {
-            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["DeliveryDB"].ConnectionString);
-
-            try
-            {
-                sqlConnection.Open();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Failed to open database connection: {ex.Message}", "Error");
-            }
+            this.context = context;
         }
 
-        public void CloseConnection()
+        public bool AddUser(string phone, string password, string role)
         {
-            if (sqlConnection != null && sqlConnection.State == System.Data.ConnectionState.Open)
-            {
-                sqlConnection.Close();
-            }
-        }
-
-        public User AuthenticateUser(string phone, string password)
-        {
-            string query = "SELECT Phone, Password, Role FROM Users WHERE Phone = @Phone AND Password = @Password";
-
             try
             {
-                using (SqlCommand command = new SqlCommand(query, sqlConnection))
+                var existingUser = context.Users.SingleOrDefault(u => u.Phone == phone);
+                if (existingUser != null)
                 {
-                    // Используем параметры для защиты от SQL-инъекций
-                    command.Parameters.AddWithValue("@Phone", phone);
-                    command.Parameters.AddWithValue("@Password", password);
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            // Чтение данных из результата запроса
-                            string dbPhone = reader["Phone"].ToString();
-                            string dbPassword = reader["Password"].ToString();
-                            string dbRole = reader["Role"].ToString();
-
-                            int.TryParse(dbPhone, out int DBphone);
-
-                            // Возвращаем объект Account с нужными полями
-                            return new User(DBphone, dbPassword, dbRole);
-                        }
-                        else
-                        {
-                            // Если пользователь не найден, возвращаем null
-                            return null;
-                        }
-                    }
+                    MessageBox.Show("Пользователь с таким номером телефона уже существует.");
+                    return false;
                 }
 
+                var newUser = new Users
+                {
+                    Phone = phone,
+                    Password = password,
+                    Role = role
+                };
+
+                context.Users.Add(newUser);
+                context.SaveChanges();
+
+                return true; 
             }
             catch (Exception ex)
             {
-                // Ловим ошибки и выводим сообщение в консоль для отладки
+                MessageBox.Show("Ошибка при добавлении пользователя: " + ex.Message);
+                return false;
+            }
+        }
+
+        public string GetUserDetails(string phone, string password)
+        {
+            try
+            {
+                var user = context.Users.SingleOrDefault(u => u.Phone == phone && u.Password == password);
+                return user != null ? $"{user.Name} {user.Surname} {user.Patronymic}" : null;
+            }
+            catch (Exception ex)
+            {
                 Console.WriteLine("Error: " + ex.Message);
                 return null;
             }
         }
-
-       
-
     }
 }

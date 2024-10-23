@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\db\\deliverydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\db\\deliverydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\models\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\models\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,37 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Models\\User.cs",
-              "RelativeDocumentMoniker": "PlotvaEdition\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Models\\User.cs",
-              "RelativeToolTip": "PlotvaEdition\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T20:00:37.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PlotvaEdition\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml.cs",
-              "RelativeToolTip": "PlotvaEdition\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:26:16.458Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -67,18 +41,44 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml",
               "RelativeToolTip": "PlotvaEdition\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-22T19:24:16.319Z",
+              "WhenOpened": "2024-10-23T19:23:59.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PlotvaEdition\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PlotvaEdition\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T19:19:57.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DeliveryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DeliveryDbContext.cs",
+              "RelativeDocumentMoniker": "PlotvaEdition\\DB\\DeliveryDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DeliveryDbContext.cs",
+              "RelativeToolTip": "PlotvaEdition\\DB\\DeliveryDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:58:41.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DBOperation.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Models\\DBOperation.cs",
               "RelativeDocumentMoniker": "PlotvaEdition\\Models\\DBOperation.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Models\\DBOperation.cs",
               "RelativeToolTip": "PlotvaEdition\\Models\\DBOperation.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T16:08:04.311Z",
               "EditorCaption": ""

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -13,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PlotvaEdition.Interfaces;
 using PlotvaEdition.Models;
 
 namespace PlotvaEdition
@@ -22,7 +24,7 @@ namespace PlotvaEdition
     /// </summary>
     public partial class MainWindow : Window
     {
-        DBOperation dBOperation = new DBOperation();
+        DBOperation dbOperation = new DBOperation(new DeliveryDbContext());
         public MainWindow()
         {
             InitializeComponent();
@@ -33,14 +35,16 @@ namespace PlotvaEdition
         {
             string phone = NumberPhone.Text;
             string password = Password.Text;
-            User user = dBOperation.AuthenticateUser(phone, password);
-            if (user != null)
+            string details = "";
+
+            details = dbOperation.GetUserDetails(phone, password);
+            if (details != "")
             {
-                MessageBox.Show("User role: " + user.Role);
+                MessageBox.Show($"ФИО пользователя: {details}");
             }
             else
             {
-                MessageBox.Show("User not found");
+                MessageBox.Show("Пользователь не найден или неверные данные.");
             }
         }
     }

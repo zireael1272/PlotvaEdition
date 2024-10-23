@@ -225,6 +225,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DB\DeliveryDbContext.cs" />
+    <Compile Include="Migrations\20241023185708_InitialCreate.cs" />
+    <Compile Include="Migrations\20241023185708_InitialCreate.Designer.cs">
+      <DependentUpon>20241023185708_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\DeliveryDbContextModelSnapshot.cs" />
     <Compile Include="ViewModels\AddPackageVM.cs" />
     <Compile Include="ViewModels\ControlPackageUsersVM.cs" />
     <Compile Include="ViewModels\HistoryPackageVM.cs" />
@@ -303,9 +309,9 @@
   <ItemGroup>
     <Compile Include="Models\DBOperation.cs" />
     <Compile Include="Models\OrderStatus.cs" />
-    <Compile Include="Models\PackageInfo.cs" />
-    <Compile Include="Models\Payment.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Parcel.cs" />
+    <Compile Include="Models\Payments.cs" />
+    <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
