@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace PlotvaEdition.Interfaces
 {
-    internal class IDBOperation
+    internal interface IDBOperation
     {
+        bool AddUser(string phone, string password, string role);
+        string GetUserDetails(string phone, string password);
+
+
     }
 }

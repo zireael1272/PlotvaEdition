@@ -15,7 +15,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using PlotvaEdition.Interfaces;
+using PlotvaEdition.DB;
 using PlotvaEdition.Models;
+
 
 namespace PlotvaEdition
 {
@@ -28,12 +30,11 @@ namespace PlotvaEdition
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void Autorizate_Click(object sender, RoutedEventArgs e)
         {
-            string phone = NumberPhone.Text;
+            /*string phone = NumberPhone.Text;
             string password = Password.Text;
             string details = "";
 
@@ -45,7 +46,11 @@ namespace PlotvaEdition
             else
             {
                 MessageBox.Show("Пользователь не найден или неверные данные.");
-            }
+            }*/
+
+            string phone = NumberPhone.Text;
+            dbOperation.DeleteUser(phone);
+
         }
     }
 }
