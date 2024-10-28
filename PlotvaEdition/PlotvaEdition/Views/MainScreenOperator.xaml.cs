@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PlotvaEdition.DB;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace PlotvaEdition.Views
@@ -18,11 +18,17 @@ namespace PlotvaEdition.Views
     /// <summary>
     /// Логика взаимодействия для MainScreenOperator.xaml
     /// </summary>
-    public partial class MainScreenOperator : Page
+    public partial class MainScreenOperator : Window
     {
+        private readonly DBOperation dbOperation;
         public MainScreenOperator()
         {
             InitializeComponent();
+        }
+
+        private void Account_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("Views/Account.xaml", UriKind.Relative));
         }
     }
 }

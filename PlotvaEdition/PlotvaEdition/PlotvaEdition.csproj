@@ -278,6 +278,9 @@
     <Compile Include="ViewModels\RegistrationVM.cs" />
     <Compile Include="ViewModels\TrackingPackageVM.cs" />
     <Compile Include="ViewModels\UserVM.cs" />
+    <Compile Include="Views\Account.xaml.cs">
+      <DependentUpon>Account.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AddParcel.xaml.cs">
       <DependentUpon>AddParcel.xaml</DependentUpon>
     </Compile>
@@ -302,18 +305,14 @@
     <Compile Include="Views\TrackingParcel.xaml.cs">
       <DependentUpon>TrackingParcel.xaml</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
+    <Page Include="Views\Account.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\AddParcel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

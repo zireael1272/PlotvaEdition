@@ -18,11 +18,26 @@ namespace PlotvaEdition.Views
     /// <summary>
     /// Логика взаимодействия для MainScreenUser.xaml
     /// </summary>
-    public partial class MainScreenUser : Page
+    public partial class MainScreenUser : Window
     {
         public MainScreenUser()
         {
             InitializeComponent();
+        }
+
+        private void Account_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Account());
+        }
+
+        private void HistoryParcel_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new HistoryPackage());
+        }
+
+        private void AddParcel_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

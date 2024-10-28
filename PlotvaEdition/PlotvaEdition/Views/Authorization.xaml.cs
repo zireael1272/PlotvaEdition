@@ -12,7 +12,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace PlotvaEdition.Views
@@ -20,29 +19,34 @@ namespace PlotvaEdition.Views
     /// <summary>
     /// Логика взаимодействия для Authorization.xaml
     /// </summary>
-    public partial class Authorization : Page
+    public partial class Authorization : Window
     {
-        DBOperation dbOperation = new DBOperation(new DeliveryDbContext());
+        private readonly DBOperation dbOperation;
         public Authorization()
         {
             InitializeComponent();
+            dbOperation = new DBOperation(new DeliveryDbContext());
         }
 
         private void Autorizate_Click(object sender, RoutedEventArgs e)
         {
             string phone = NumberPhone.Text;
             string password = Password.Text;
-            string role = dbOperation.GetUserRole(phone, password);
+
             if (dbOperation.AuthenticateUser(phone, password))
             {
+                string role = dbOperation.GetUserRole(phone, password);
                 if (role == "User")
                 {
-                    var mainscreenUser = new MainScreen();
-
+                    var mainScreenUser = new MainScreenUser();
+                    mainScreenUser.Show();
+                    this.Close();
                 }
                 else if (role == "Admin")
                 {
-
+                    var mainScreenOperator = new MainScreenOperator();
+                    mainScreenOperator.Show();
+                    this.Close();
                 }
                 else
                     MessageBox.Show("Неправильный номер телефона или пароль.", "Ошибка аутентификации", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -52,7 +56,6 @@ namespace PlotvaEdition.Views
             {
                 MessageBox.Show("Неправильный номер телефона или пароль.", "Ошибка аутентификации", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
         }
     }
 }

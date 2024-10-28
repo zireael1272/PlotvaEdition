@@ -1,14 +1,20 @@
-﻿<Page x:Class="PlotvaEdition.Views.MainScreenUser"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:PlotvaEdition.Views"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="MainScreenUser">
-
+﻿<Window x:Class="PlotvaEdition.Views.MainScreenUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlotvaEdition.Views"
+        mc:Ignorable="d"
+        Title="MainScreenUser" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel Orientation="Vertical" Width="160" Margin="0,0,640,0">
+            <Button Content="Акаунт" Click="Account_Click" Height="40"/>
+            <Button Content="Додати посилку" Click="AddParcel_Click" Height="40"/>
+            <Button Content="Історія" Click="HistoryParcel_Click" Height="40"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Width="640" Height="40" Margin="160,0,0,394">
+            <Label Content="Plotva" Margin="320, 5, 0, 0"/>
+        </StackPanel>
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden" Margin="160,40,0,0"/>
     </Grid>
-</Page>
+</Window>

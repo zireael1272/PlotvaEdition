@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\App.xaml
-9-1476781963
+9-25601761
 2699254388
-311841036374
+31-832745148
 82-19935306
-MainWindow.xaml;Views\AddPackage.xaml;Views\Authorization.xaml;Views\ControlPackageUsers.xaml;Views\HistoryPackage.xaml;Views\MainScreenOperator.xaml;Views\MainScreenUser.xaml;Views\Registration.xaml;Views\TrackingPackage.xaml;
+Views\Account.xaml;Views\AddParcel.xaml;Views\Authorization.xaml;Views\ControlPackageUsers.xaml;Views\HistoryPackage.xaml;Views\MainScreenOperator.xaml;Views\MainScreenUser.xaml;Views\Registration.xaml;Views\TrackingParcel.xaml;
 
 False
 
