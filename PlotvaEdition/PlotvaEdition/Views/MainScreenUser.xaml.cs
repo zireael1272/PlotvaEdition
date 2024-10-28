@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace PlotvaEdition.Views
 {
     /// <summary>
-    /// Логика взаимодействия для MainScreen.xaml
+    /// Логика взаимодействия для MainScreenUser.xaml
     /// </summary>
-    public partial class MainScreen : UserControl
+    public partial class MainScreenUser : Page
     {
-        public MainScreen()
+        public MainScreenUser()
         {
             InitializeComponent();
         }

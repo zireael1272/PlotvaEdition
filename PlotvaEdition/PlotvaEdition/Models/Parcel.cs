@@ -17,9 +17,15 @@ namespace PlotvaEdition.Models
         [MaxLength(10)]
         public string SenderPhone { get; set; }
 
+        [ForeignKey("SenderPhone")]
+        public Users Sender { get; set; }
+
         [Required]
         [MaxLength(10)]
         public string ReceiverPhone { get; set; }
+
+        [ForeignKey("ReceiverPhone")]
+        public Users Receiver { get; set; }
 
         [Required]
         public decimal Weight { get; set; }

@@ -18,7 +18,7 @@ namespace PlotvaEdition.Views
     /// <summary>
     /// Логика взаимодействия для Registration.xaml
     /// </summary>
-    public partial class Registration : UserControl
+    public partial class Registration : Page
     {
         public Registration()
         {

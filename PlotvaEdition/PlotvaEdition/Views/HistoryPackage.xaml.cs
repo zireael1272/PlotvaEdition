@@ -18,7 +18,7 @@ namespace PlotvaEdition.Views
     /// <summary>
     /// Логика взаимодействия для HistoryPackage.xaml
     /// </summary>
-    public partial class HistoryPackage : UserControl
+    public partial class HistoryPackage : Page
     {
         public HistoryPackage()
         {

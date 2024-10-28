@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\db\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\db\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\views\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\views\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\interfaces\\idboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\interfaces\\idboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\db\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\db\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\db\\deliverydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\db\\deliverydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\interfaces\\idboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\interfaces\\idboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +43,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PlotvaEdition\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml.cs",
-              "RelativeToolTip": "PlotvaEdition\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAkwDMAAAAqAAAAAAAAAA==",
+              "Title": "Authorization.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Authorization.xaml.cs",
+              "RelativeDocumentMoniker": "PlotvaEdition\\Views\\Authorization.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Authorization.xaml.cs",
+              "RelativeToolTip": "PlotvaEdition\\Views\\Authorization.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA2wCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T19:02:54.441Z",
+              "WhenOpened": "2024-10-28T14:42:05.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Authorization.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Authorization.xaml",
+              "RelativeDocumentMoniker": "PlotvaEdition\\Views\\Authorization.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Authorization.xaml",
+              "RelativeToolTip": "PlotvaEdition\\Views\\Authorization.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T14:37:34.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PlotvaEdition\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml",
+              "RelativeToolTip": "PlotvaEdition\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T14:25:32.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PlotvaEdition\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PlotvaEdition\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwCAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T14:08:30.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IDBOperation.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Interfaces\\IDBOperation.cs",
               "RelativeDocumentMoniker": "PlotvaEdition\\Interfaces\\IDBOperation.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Interfaces\\IDBOperation.cs",
               "RelativeToolTip": "PlotvaEdition\\Interfaces\\IDBOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T18:44:04.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DBOperation.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DBOperation.cs",
               "RelativeDocumentMoniker": "PlotvaEdition\\DB\\DBOperation.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DBOperation.cs",
               "RelativeToolTip": "PlotvaEdition\\DB\\DBOperation.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwGcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T11:02:49.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeliveryDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DeliveryDbContext.cs",
-              "RelativeDocumentMoniker": "PlotvaEdition\\DB\\DeliveryDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DeliveryDbContext.cs",
-              "RelativeToolTip": "PlotvaEdition\\DB\\DeliveryDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswA8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T14:58:41.609Z",
               "EditorCaption": ""
             }
           ]

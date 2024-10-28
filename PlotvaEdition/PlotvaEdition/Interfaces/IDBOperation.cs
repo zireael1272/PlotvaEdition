@@ -10,7 +10,9 @@ namespace PlotvaEdition.Interfaces
     {
         bool AddUser(string phone, string password, string role);
         string GetUserDetails(string phone, string password);
-
+        bool DeleteUser(string phone);
+        bool AuthenticateUser(string phone, string password);
+        //bool AddParcel();
 
     }
 }

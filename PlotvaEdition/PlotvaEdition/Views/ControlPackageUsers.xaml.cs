@@ -18,7 +18,7 @@ namespace PlotvaEdition.Views
     /// <summary>
     /// Логика взаимодействия для ControlPackageUsers.xaml
     /// </summary>
-    public partial class ControlPackageUsers : UserControl
+    public partial class ControlPackageUsers : Page
     {
         public ControlPackageUsers()
         {

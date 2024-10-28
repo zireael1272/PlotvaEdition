@@ -18,7 +18,7 @@ namespace PlotvaEdition.Views
     /// <summary>
     /// Логика взаимодействия для MainScreenOperator.xaml
     /// </summary>
-    public partial class MainScreenOperator : UserControl
+    public partial class MainScreenOperator : Page
     {
         public MainScreenOperator()
         {

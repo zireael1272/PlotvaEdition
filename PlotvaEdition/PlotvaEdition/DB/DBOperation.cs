@@ -11,7 +11,6 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using MySqlX.XDevAPI;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.Remoting.Contexts;
-using System.Data.Entity;
 using PlotvaEdition.Models;
 using PlotvaEdition.Interfaces;
 
@@ -25,6 +24,11 @@ namespace PlotvaEdition.DB
             this.context = context;
         }
 
+        public bool AuthenticateUser(string phone, string password)
+        {
+            var user = context.Users.SingleOrDefault(u => u.Phone == phone && u.Password == password);
+            return user != null;
+        }
         public bool AddUser(string phone, string password, string role)
         {
             try
@@ -32,7 +36,7 @@ namespace PlotvaEdition.DB
                 var existingUser = context.Users.SingleOrDefault(u => u.Phone == phone);
                 if (existingUser != null)
                 {
-                    MessageBox.Show("Пользователь с таким номером телефона уже существует.");
+                    MessageBox.Show("User already exists.");
                     return false;
                 }
 
@@ -50,22 +54,8 @@ namespace PlotvaEdition.DB
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ошибка при добавлении пользователя: " + ex.Message);
+                MessageBox.Show("Error add user: " + ex.Message);
                 return false;
-            }
-        }
-
-        public string GetUserDetails(string phone, string password)
-        {
-            try
-            {
-                var user = context.Users.SingleOrDefault(u => u.Phone == phone && u.Password == password);
-                return user != null ? $"{user.Name} {user.Surname} {user.Patronymic}" : null;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
-                return null;
             }
         }
 
@@ -89,6 +79,34 @@ namespace PlotvaEdition.DB
             {
                 MessageBox.Show("Error delete user: " + ex.Message);
                 return false;
+            }
+        }
+
+        public string GetUserDetails(string phone, string password)
+        {
+            try
+            {
+                var user = context.Users.SingleOrDefault(u => u.Phone == phone && u.Password == password);
+                return user != null ? $"{user.Name} {user.Surname} {user.Patronymic}" : null;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+                return null;
+            }
+        }
+
+        public string GetUserRole(string phone, string password)
+        {
+            try
+            {
+                var user = context.Users.SingleOrDefault(u => u.Phone == phone && u.Password == password);
+                return user != null ? $"{user.Role}" : null;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+                return null;
             }
         }
     }

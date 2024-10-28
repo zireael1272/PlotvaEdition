@@ -17,6 +17,7 @@ using System.Windows.Shapes;
 using PlotvaEdition.Interfaces;
 using PlotvaEdition.DB;
 using PlotvaEdition.Models;
+using PlotvaEdition.Views;
 
 
 namespace PlotvaEdition
@@ -26,31 +27,11 @@ namespace PlotvaEdition
     /// </summary>
     public partial class MainWindow : Window
     {
-        DBOperation dbOperation = new DBOperation(new DeliveryDbContext());
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Content = new Authorization();
         }
 
-        private void Autorizate_Click(object sender, RoutedEventArgs e)
-        {
-            /*string phone = NumberPhone.Text;
-            string password = Password.Text;
-            string details = "";
-
-            details = dbOperation.GetUserDetails(phone, password);
-            if (details != "")
-            {
-                MessageBox.Show($"ФИО пользователя: {details}");
-            }
-            else
-            {
-                MessageBox.Show("Пользователь не найден или неверные данные.");
-            }*/
-
-            string phone = NumberPhone.Text;
-            dbOperation.DeleteUser(phone);
-
-        }
     }
 }
