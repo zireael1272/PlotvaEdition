@@ -6,9 +6,11 @@
       xmlns:local="clr-namespace:PlotvaEdition.Views"
       mc:Ignorable="d" 
       d:DesignHeight="410" d:DesignWidth="640"
-      Title="Account">
+      Title="Account"
+      Loaded="Account_Loaded">
 
     <Grid Background="White">
-        <Button Content="Видалити акаунт" Click="DeleteAccount_Click" Width="130" Height="40" Margin="255,325,255,45"/>
+        <Button Content="Видалити акаунт" Click="DeleteAccount_Click" Margin="234,313,234,45"/>
+        <Label Name="Pib" Content="" HorizontalAlignment="Left" Margin="132,58,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

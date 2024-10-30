@@ -5,16 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PlotvaEdition.Views"
         mc:Ignorable="d"
-        Title="MainScreenUser" Height="450" Width="800">
+        Title="Main User" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        <StackPanel Orientation="Vertical" Width="160" Margin="0,0,640,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" Width="160" Grid.Column="0">
             <Button Content="Акаунт" Click="Account_Click" Height="40"/>
             <Button Content="Додати посилку" Click="AddParcel_Click" Height="40"/>
             <Button Content="Історія" Click="HistoryParcel_Click" Height="40"/>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Width="640" Height="40" Margin="160,0,0,394">
-            <Label Content="Plotva" Margin="320, 5, 0, 0"/>
+        <StackPanel Orientation="Horizontal" Width="640" Height="40" Margin="0,-10,0,394" Grid.Column="1" Background="RoyalBlue">
+            <Label Content="Plotva" FontSize="18" Foreground="White"  Margin="280,0,0,0" HorizontalAlignment="Center"/>
         </StackPanel>
-        <Frame Name="MainFrame" NavigationUIVisibility="Hidden" Margin="160,40,0,0"/>
+        <Frame Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden" Margin="0,40,0,0"/>
     </Grid>
 </Window>

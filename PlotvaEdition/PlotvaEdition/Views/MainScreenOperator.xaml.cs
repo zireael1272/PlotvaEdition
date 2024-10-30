@@ -1,4 +1,5 @@
 ﻿using PlotvaEdition.DB;
+using PlotvaEdition.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,14 +22,14 @@ namespace PlotvaEdition.Views
     public partial class MainScreenOperator : Window
     {
         private readonly DBOperation dbOperation;
-        public MainScreenOperator()
+        private Users user;
+        public MainScreenOperator(Users user)
         {
             InitializeComponent();
+            this.Width = 800;
+            this.Height = 480;
+            this.user = user;
         }
 
-        private void Account_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new Uri("Views/Account.xaml", UriKind.Relative));
-        }
     }
 }

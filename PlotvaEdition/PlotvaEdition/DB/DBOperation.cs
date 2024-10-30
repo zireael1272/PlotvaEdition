@@ -24,12 +24,12 @@ namespace PlotvaEdition.DB
             this.context = context;
         }
 
-        public bool AuthenticateUser(string phone, string password)
+        public Users AuthenticateUser(string phone, string password)
         {
             var user = context.Users.SingleOrDefault(u => u.Phone == phone && u.Password == password);
-            return user != null;
+            return user != null ? new Users { Phone = user.Phone, Password = user.Password, Role = user.Role, Name = user.Name, Surname = user.Surname, Patronymic = user.Patronymic} : null;
         }
-        public bool AddUser(string phone, string password, string role)
+        public bool AddUser(string phone, string password, string role, string name, string surname, string patronymic)
         {
             try
             {
@@ -44,7 +44,10 @@ namespace PlotvaEdition.DB
                 {
                     Phone = phone,
                     Password = password,
-                    Role = role
+                    Role = role,
+                    Name = name,
+                    Surname = surname,
+                    Patronymic = patronymic
                 };
 
                 context.Users.Add(newUser);
@@ -59,11 +62,11 @@ namespace PlotvaEdition.DB
             }
         }
 
-        public bool DeleteUser(string phone)
+        public bool DeleteUser(string phone, string password)
         {
             try
             {
-                var user = context.Users.SingleOrDefault(u => u.Phone == phone);
+                var user = context.Users.SingleOrDefault(u => u.Phone == phone && u.Password == password);
                 if (user == null)
                 {
                     MessageBox.Show("User not found.");
@@ -72,7 +75,6 @@ namespace PlotvaEdition.DB
 
                 context.Users.Remove(user); 
                 context.SaveChanges();
-                MessageBox.Show("User deleted.");
                 return true;
             }
             catch (Exception ex)

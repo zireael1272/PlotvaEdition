@@ -171,3 +171,5 @@ C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\TrackingParcel.baml
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\Account.g.cs
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\Account.baml
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\CreateAcc.g.cs
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\CreateAcc.baml

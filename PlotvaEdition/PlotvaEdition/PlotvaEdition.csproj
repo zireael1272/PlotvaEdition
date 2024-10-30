@@ -290,6 +290,9 @@
     <Compile Include="Views\ControlPackageUsers.xaml.cs">
       <DependentUpon>ControlPackageUsers.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\CreateAcc.xaml.cs">
+      <DependentUpon>CreateAcc.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\HistoryPackage.xaml.cs">
       <DependentUpon>HistoryPackage.xaml</DependentUpon>
     </Compile>
@@ -322,6 +325,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ControlPackageUsers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CreateAcc.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

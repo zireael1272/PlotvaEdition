@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PlotvaEdition.DB;
+using PlotvaEdition.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,14 +22,38 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class Account : Page
     {
-        public Account()
+        private readonly DBOperation dbOperation;
+        private Users user;
+        private MainScreenUser parent;
+        public Account(Users user, MainScreenUser parent)
         {
             InitializeComponent();
+            dbOperation = new DBOperation(new DeliveryDbContext());
+            this.user = user;
+            this.parent = parent;
         }
+
+        private void Account_Loaded(object sender, RoutedEventArgs e)
+        {
+            Pib.Content = $"Name: {user.Name} {user.Surname} {user.Patronymic}";
+        }
+
 
         private void DeleteAccount_Click(object sender, RoutedEventArgs e)
         {
+            if(dbOperation.DeleteUser(user.Phone, user.Password))
+            {
+                MessageBox.Show("User deleted.");
+                var authorization = new Authorization();
+                authorization.Show();
+                parent.Close();
+            }
+            else
+            {
 
+            }
+            
+            
         }
     }
 }

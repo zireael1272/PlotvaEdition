@@ -33,18 +33,19 @@ namespace PlotvaEdition.Views
             string phone = NumberPhone.Text;
             string password = Password.Text;
 
-            if (dbOperation.AuthenticateUser(phone, password))
+            var user = dbOperation.AuthenticateUser(phone, password);
+            if (user != null)
             {
                 string role = dbOperation.GetUserRole(phone, password);
                 if (role == "User")
                 {
-                    var mainScreenUser = new MainScreenUser();
+                    var mainScreenUser = new MainScreenUser(user);
                     mainScreenUser.Show();
                     this.Close();
                 }
                 else if (role == "Admin")
                 {
-                    var mainScreenOperator = new MainScreenOperator();
+                    var mainScreenOperator = new MainScreenOperator(user);
                     mainScreenOperator.Show();
                     this.Close();
                 }
@@ -56,6 +57,13 @@ namespace PlotvaEdition.Views
             {
                 MessageBox.Show("Неправильный номер телефона или пароль.", "Ошибка аутентификации", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        private void Registration_Click(object sender, RoutedEventArgs e)
+        {
+            var registration = new Registration();
+            registration.Show();
+            this.Close();
         }
     }
 }

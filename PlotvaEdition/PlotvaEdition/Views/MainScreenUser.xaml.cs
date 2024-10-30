@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PlotvaEdition.DB;
+using PlotvaEdition.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,14 +22,20 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class MainScreenUser : Window
     {
-        public MainScreenUser()
+        private readonly DBOperation dbOperation;
+        private Users user;
+        public MainScreenUser(Users user)
         {
             InitializeComponent();
+            this.Width = 800;
+            this.Height = 480;
+            dbOperation = new DBOperation(new DeliveryDbContext());
+            this.user = user;
         }
 
         private void Account_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Account());
+            MainFrame.Navigate(new Account(user, this));
         }
 
         private void HistoryParcel_Click(object sender, RoutedEventArgs e)
@@ -37,7 +45,7 @@ namespace PlotvaEdition.Views
 
         private void AddParcel_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Navigate(new AddParcel());
         }
     }
 }
