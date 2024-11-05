@@ -21,11 +21,11 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class Authorization : Window
     {
-        private readonly DBOperation dbOperation;
+        private readonly DBOperationUser dbOperation;
         public Authorization()
         {
             InitializeComponent();
-            dbOperation = new DBOperation(new DeliveryDbContext());
+            dbOperation = new DBOperationUser(new DeliveryDbContext());
         }
 
         private void Autorizate_Click(object sender, RoutedEventArgs e)

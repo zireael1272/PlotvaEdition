@@ -263,8 +263,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DB\DBOperationsOperator.cs" />
     <Compile Include="DB\DeliveryDbContext.cs" />
-    <Compile Include="Interfaces\IDBOperation.cs" />
+    <Compile Include="Interfaces\IDBOperationUser.cs" />
     <Compile Include="Migrations\20241023185708_InitialCreate.cs" />
     <Compile Include="Migrations\20241023185708_InitialCreate.Designer.cs">
       <DependentUpon>20241023185708_InitialCreate.cs</DependentUpon>
@@ -286,6 +287,9 @@
     </Compile>
     <Compile Include="Views\Authorization.xaml.cs">
       <DependentUpon>Authorization.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeData.xaml.cs">
+      <DependentUpon>ChangeData.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ControlPackageUsers.xaml.cs">
       <DependentUpon>ControlPackageUsers.xaml</DependentUpon>
@@ -324,6 +328,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ChangeData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ControlPackageUsers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -354,7 +362,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DB\DBOperation.cs" />
+    <Compile Include="DB\DBOperationUser.cs" />
     <Compile Include="Models\OrderStatus.cs" />
     <Compile Include="Models\Parcel.cs" />
     <Compile Include="Models\Payments.cs" />

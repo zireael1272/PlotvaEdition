@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\views\\mainscreenuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\mainscreenuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\db\\dboperationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\db\\dboperationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\createacc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\createacc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\db\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\db\\dboperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\createacc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\createacc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\views\\account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,12 +35,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainScreenUser.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\MainScreenUser.xaml",
+              "RelativeDocumentMoniker": "PlotvaEdition\\Views\\MainScreenUser.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\MainScreenUser.xaml",
+              "RelativeToolTip": "PlotvaEdition\\Views\\MainScreenUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T19:03:14.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Account.xaml",
+              "RelativeDocumentMoniker": "PlotvaEdition\\Views\\Account.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Account.xaml",
+              "RelativeToolTip": "PlotvaEdition\\Views\\Account.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T20:49:39.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Account.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Account.xaml.cs",
               "RelativeDocumentMoniker": "PlotvaEdition\\Views\\Account.xaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Account.xaml.cs",
               "RelativeToolTip": "PlotvaEdition\\Views\\Account.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACUAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwBgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T20:39:54.969Z",
               "EditorCaption": ""
@@ -56,64 +72,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateAcc.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\CreateAcc.xaml.cs",
-              "RelativeDocumentMoniker": "PlotvaEdition\\Views\\CreateAcc.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\CreateAcc.xaml.cs",
-              "RelativeToolTip": "PlotvaEdition\\Views\\CreateAcc.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwC0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T19:34:17.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Registration.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Registration.xaml.cs",
-              "RelativeDocumentMoniker": "PlotvaEdition\\Views\\Registration.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Registration.xaml.cs",
-              "RelativeToolTip": "PlotvaEdition\\Views\\Registration.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwBsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T19:32:04.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DBOperation.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DBOperation.cs",
-              "RelativeDocumentMoniker": "PlotvaEdition\\DB\\DBOperation.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DBOperation.cs",
-              "RelativeToolTip": "PlotvaEdition\\DB\\DBOperation.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBgAAAAJAAAAAAAAAA==",
+              "Title": "DBOperationUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DBOperationUser.cs",
+              "RelativeDocumentMoniker": "PlotvaEdition\\DB\\DBOperationUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DBOperationUser.cs",
+              "RelativeToolTip": "PlotvaEdition\\DB\\DBOperationUser.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T11:02:49.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Registration.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Registration.xaml",
-              "RelativeDocumentMoniker": "PlotvaEdition\\Views\\Registration.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\Registration.xaml",
-              "RelativeToolTip": "PlotvaEdition\\Views\\Registration.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T19:21:45.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateAcc.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\CreateAcc.xaml",
-              "RelativeDocumentMoniker": "PlotvaEdition\\Views\\CreateAcc.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\CreateAcc.xaml",
-              "RelativeToolTip": "PlotvaEdition\\Views\\CreateAcc.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T19:28:06.402Z",
               "EditorCaption": ""
             }
           ]

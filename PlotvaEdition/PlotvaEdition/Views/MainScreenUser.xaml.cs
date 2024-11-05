@@ -22,14 +22,14 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class MainScreenUser : Window
     {
-        private readonly DBOperation dbOperation;
+        private readonly DBOperationUser dbOperation;
         private Users user;
         public MainScreenUser(Users user)
         {
             InitializeComponent();
             this.Width = 800;
             this.Height = 480;
-            dbOperation = new DBOperation(new DeliveryDbContext());
+            dbOperation = new DBOperationUser(new DeliveryDbContext());
             this.user = user;
         }
 
@@ -47,5 +47,6 @@ namespace PlotvaEdition.Views
         {
             MainFrame.Navigate(new AddParcel());
         }
+
     }
 }

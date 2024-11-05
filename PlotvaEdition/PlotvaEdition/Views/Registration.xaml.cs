@@ -21,11 +21,11 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class Registration : Window
     {
-        private readonly DBOperation dbOperation;
+        private readonly DBOperationUser dbOperation;
         public Registration()
         {
             InitializeComponent();
-            dbOperation = new DBOperation(new DeliveryDbContext());
+            dbOperation = new DBOperationUser(new DeliveryDbContext());
         }
 
         private void Register_Click(object sender, RoutedEventArgs e)

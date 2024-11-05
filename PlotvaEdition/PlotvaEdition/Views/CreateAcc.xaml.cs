@@ -21,13 +21,13 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class CreateAcc : Window
     {
-        private readonly DBOperation dbOperation;
+        private readonly DBOperationUser dbOperation;
         private string Phone;
         private string Password;
         public CreateAcc(string number, string password)
         {
             InitializeComponent();
-            dbOperation = new DBOperation(new DeliveryDbContext());
+            dbOperation = new DBOperationUser(new DeliveryDbContext());
             Phone = number;
             Password = password;
         }

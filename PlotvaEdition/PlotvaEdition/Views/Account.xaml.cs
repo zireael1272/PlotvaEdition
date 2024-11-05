@@ -22,20 +22,20 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class Account : Page
     {
-        private readonly DBOperation dbOperation;
+        private readonly DBOperationUser dbOperation;
         private Users user;
         private MainScreenUser parent;
         public Account(Users user, MainScreenUser parent)
         {
             InitializeComponent();
-            dbOperation = new DBOperation(new DeliveryDbContext());
+            dbOperation = new DBOperationUser(new DeliveryDbContext());
             this.user = user;
             this.parent = parent;
         }
 
         private void Account_Loaded(object sender, RoutedEventArgs e)
         {
-            Pib.Content = $"Name: {user.Name} {user.Surname} {user.Patronymic}";
+            FullName.Content = $"{user.Name} {user.Surname} {user.Patronymic}";
         }
 
 
@@ -50,10 +50,20 @@ namespace PlotvaEdition.Views
             }
             else
             {
-
+                MessageBox.Show("Error", "Errorchik.");
             }
             
             
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            parent.MainFrame.Content = null;
+        }
+
+        private void ChangeData_Click(object sender, RoutedEventArgs e)
+        {
+            parent.MainFrame.Content = new ChangeData(user, parent);
         }
     }
 }

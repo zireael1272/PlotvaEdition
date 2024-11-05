@@ -21,7 +21,7 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class MainScreenOperator : Window
     {
-        private readonly DBOperation dbOperation;
+        private readonly DBOperationUser dbOperation;
         private Users user;
         public MainScreenOperator(Users user)
         {
