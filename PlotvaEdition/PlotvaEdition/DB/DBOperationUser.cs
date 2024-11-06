@@ -37,7 +37,7 @@ namespace PlotvaEdition.DB
                 var existingUser = context.Users.SingleOrDefault(u => u.Phone == phone);
                 if (existingUser != null)
                 {
-                    MessageBox.Show("User already exists.");
+                    MessageBox.Show("Такий користувач вже існує.");
                     return false;
                 }
 
@@ -58,7 +58,7 @@ namespace PlotvaEdition.DB
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error add user: " + ex.Message);
+                MessageBox.Show("Помилка додавання користувача: " + ex.Message);
                 return false;
             }
         }
@@ -70,7 +70,7 @@ namespace PlotvaEdition.DB
                 var user = context.Users.SingleOrDefault(u => u.Phone == phone && u.Password == password);
                 if (user == null)
                 {
-                    MessageBox.Show("User not found.");
+                    MessageBox.Show("Користувача не знайдено.");
                     return false;
                 }
 
@@ -80,7 +80,7 @@ namespace PlotvaEdition.DB
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error delete user: " + ex.Message);
+                MessageBox.Show("Помилка видалення користувача: " + ex.Message);
                 return false;
             }
         }
@@ -94,7 +94,7 @@ namespace PlotvaEdition.DB
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.Message);
+                Console.WriteLine("Помилка: " + ex.Message);
                 return null;
             }
         }
@@ -108,7 +108,7 @@ namespace PlotvaEdition.DB
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.Message);
+                Console.WriteLine("Помилка: " + ex.Message);
                 return null;
             }
         }
@@ -127,9 +127,51 @@ namespace PlotvaEdition.DB
             }
             else
             {
-                MessageBox.Show("User not found");
+                MessageBox.Show("Користувача не знайдено.");
                 return false;
             }
+        }
+
+        public bool UpdatePassword(string phone, string newPassword)
+        {
+            var user = context.Users.SingleOrDefault(u => u.Phone == phone);
+            if (user != null)
+            {
+                user.Password = newPassword;
+
+                context.SaveChanges();
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("Користувача не знайдено.");
+                return false;
+            }
+        }
+
+        public void AddParcel(string SenderPhone, string SenderName, string SenderSurname, string SenderPatronymic, 
+            string ReceiverPhone, string ReceiverName, string ReceiverSurname, string ReceiverPatronymic, 
+            decimal Weight, DateTime DispatchDate, DateTime DeliveryDate, OrderStatus Status, int Integrity)
+        {
+            var newParcel = new Parcel
+            {
+                SenderPhone = SenderPhone,
+                SenderName = SenderName,
+                SenderSurname = SenderSurname,
+                SenderPatronymic = SenderPatronymic,
+                ReceiverPhone = ReceiverPhone,
+                ReceiverName = ReceiverName,
+                ReceiverSurname = ReceiverSurname,
+                ReceiverPatronymic = ReceiverPatronymic,
+                Weight = Weight,
+                DispatchDate = DispatchDate,
+                DeliveryDate = DeliveryDate,
+                Status = Status,
+                Integrity = Integrity
+            };
+
+            context.Parcels.Add(newParcel);
+            context.SaveChanges();
         }
     }
 }

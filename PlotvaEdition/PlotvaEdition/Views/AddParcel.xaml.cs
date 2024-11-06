@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PlotvaEdition.DB;
+using PlotvaEdition.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,52 @@ namespace PlotvaEdition.Views
     /// </summary>
     public partial class AddParcel : Page
     {
-        public AddParcel()
+        private readonly DBOperationUser dbOperation;
+        private Users user;
+        private MainScreenUser parent;
+        public AddParcel(Users user, MainScreenUser parent)
         {
             InitializeComponent();
+            dbOperation = new DBOperationUser(new DeliveryDbContext());
+            this.user = user;
+            this.parent = parent;
+        }
+
+        private void AddParcel_Loaded(object sender, RoutedEventArgs e)
+        {
+            SenderFullData.Content = user.Phone + "\n" + user.Name + " " + user.Surname + " " + user.Patronymic;
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            parent.MainFrame.Content = null;
+        }
+
+        private void Next_Click(object sender, RoutedEventArgs e)
+        {
+            if(selectedDepartment.Content == null || DepartmentReceiver.Content == null || ReceiverFullData.Content == null)
+            {
+                MessageBox.Show("", "ну ніху не заповнено, ти бєздарь");
+            }
+            else
+            {
+                //parent.Content = new 
+            }
+        }
+
+        private void DepartmentChoice_Click(object sender, RoutedEventArgs e)
+        {
+            parent.MainFrame.Content = new Departaments(user, parent, selectedDepartment);
+        }
+
+        private void DepartmentReceiverChoice_Click(object sender, RoutedEventArgs e)
+        {
+            parent.MainFrame.Content = new Departaments(user, parent, DepartmentReceiver);
+        }
+
+        private void ReceiverFullDataChoice_Click(object sender, RoutedEventArgs e)
+        {
+            parent.MainFrame.Content = new InterDataReceiver(user, parent, ReceiverFullData);
         }
     }
 }

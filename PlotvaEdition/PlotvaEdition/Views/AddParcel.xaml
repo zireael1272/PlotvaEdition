@@ -6,9 +6,27 @@
       xmlns:local="clr-namespace:PlotvaEdition.Views"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="AddParcel">
+      Title="AddParcel"
+      Loaded="AddParcel_Loaded">
 
     <Grid Background="White">
-        
+        <Label Content="Відправник" FontSize="18" HorizontalAlignment="Left" Margin="73,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Одержувач" FontSize="18" HorizontalAlignment="Left" Margin="73,220,0,0" VerticalAlignment="Top"/>
+
+        <StackPanel Orientation="Vertical" Width="650" Margin="73,66,77,235" Background="GhostWhite">
+            <Button Name="DepartmentChoice" Content=" Відділення" HorizontalContentAlignment="Left" Background="Transparent" BorderThickness="0" FontSize="15" Click="DepartmentChoice_Click"/>
+            <Label Name="selectedDepartment" FontSize="14"/>
+            <Label Content="Відправник" FontSize="15"/>
+            <Label Name="SenderFullData" FontSize="15"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Width="650" Margin="75,258,75,66" Background="GhostWhite">
+            <Button Name="DepartmentReceiverChoice" Content=" Відділення" HorizontalContentAlignment="Left" Background="Transparent" BorderThickness="0" FontSize="15" Click="DepartmentReceiverChoice_Click"/>
+            <Label Name="DepartmentReceiver" FontSize="14"/>
+            <Button Name="ReceiverFullDataChoice" Content=" Одержувач" HorizontalContentAlignment="Left" VerticalContentAlignment="Stretch" Background="Transparent" BorderThickness="0" FontSize="15" Click="ReceiverFullDataChoice_Click"/>
+            <Label Name="ReceiverFullData" FontSize="15" Height="65"/>
+        </StackPanel>
+        <Button Name="Next" Content="Далі" HorizontalAlignment="Left" Margin="358,393,0,0" VerticalAlignment="Top" Width="100" Height="25" Click="Next_Click"/>
+        <Button Name="Back" Content="Назад" HorizontalAlignment="Left" Margin="20,17,0,0" VerticalAlignment="Top" Click="Back_Click" Background="Transparent" BorderThickness="0" FontSize="14"/>
     </Grid>
 </Page>

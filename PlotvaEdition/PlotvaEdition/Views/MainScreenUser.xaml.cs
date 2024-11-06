@@ -45,7 +45,7 @@ namespace PlotvaEdition.Views
 
         private void AddParcel_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new AddParcel());
+            MainFrame.Navigate(new AddParcel(user, this));
         }
 
     }

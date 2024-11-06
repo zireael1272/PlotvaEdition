@@ -21,11 +21,35 @@ namespace PlotvaEdition.Models
         public Users Sender { get; set; }
 
         [Required]
+        [MaxLength(50)]
+        public string SenderName { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string SenderSurname { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string SenderPatronymic { get; set; }
+
+        [Required]
         [MaxLength(10)]
         public string ReceiverPhone { get; set; }
 
         [ForeignKey("ReceiverPhone")]
         public Users Receiver { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string ReceiverName { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string ReceiverSurname { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string ReceiverPatronymic { get; set; }
 
         [Required]
         public decimal Weight { get; set; }
@@ -39,5 +63,8 @@ namespace PlotvaEdition.Models
         public int StatusId { get; set; }
         [ForeignKey("StatusId")]
         public OrderStatus Status { get; set; }
+
+        [Required]
+        public int Integrity { get; set; }
     }
 }

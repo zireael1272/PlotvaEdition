@@ -65,5 +65,10 @@ namespace PlotvaEdition.Views
         {
             parent.MainFrame.Content = new ChangeData(user, parent);
         }
+
+        private void ChangePassword_Click(object sender, RoutedEventArgs e)
+        {
+            parent.MainFrame.Content = new ChangePassword(user, parent);
+        }
     }
 }

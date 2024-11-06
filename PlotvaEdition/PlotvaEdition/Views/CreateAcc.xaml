@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PlotvaEdition.Views"
         mc:Ignorable="d"
-        Title="CreateAcc" Height="500" Width="400"
+        Title="Cтворення акаунту" Height="500" Width="400"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        <TextBox Name="Name" HorizontalAlignment="Left" Margin="131,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name="Surname" HorizontalAlignment="Left" Margin="131,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name="Patronymic" HorizontalAlignment="Left" Margin="131,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Create account" HorizontalAlignment="Left" Margin="149,286,0,0" VerticalAlignment="Top" Click="Createacc_Click"/>
+        <TextBox Name="Name" HorizontalAlignment="Center" Margin="0,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Surname" HorizontalAlignment="Center" Margin="0,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Patronymic" HorizontalAlignment="Center" Margin="0,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="Createacc" Content="Створити акаунт" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Click="Createacc_Click"/>
 
     </Grid>
 </Window>

@@ -52,7 +52,7 @@ namespace PlotvaEdition.Views
                 user.Name = Name.Text;
                 user.Surname = Surname.Text;
                 user.Patronymic = Patronymic.Text;
-                parent.MainFrame.Content = new Account(user, parent);
+                parent.MainFrame.GoBack();
             }
         }
     }

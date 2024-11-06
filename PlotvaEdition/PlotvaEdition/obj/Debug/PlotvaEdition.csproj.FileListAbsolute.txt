@@ -175,3 +175,9 @@ C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\CreateAcc.baml
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\ChangeData.g.cs
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\ChangeData.baml
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\ChangePassword.g.cs
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\ChangePassword.baml
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\Departaments.g.cs
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\Departaments.baml
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\InterDataReceiver.g.cs
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\InterDataReceiver.baml

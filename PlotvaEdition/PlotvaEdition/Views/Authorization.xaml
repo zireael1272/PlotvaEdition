@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PlotvaEdition.Views"
         mc:Ignorable="d"
-        Title="Authorization" Height="500" Width="400"
+        Title="Авторизація" Height="500" Width="400"
         WindowStartupLocation="CenterScreen">
     <Grid Name="log_in" Background="White">
         <TextBox Name="NumberPhone" HorizontalAlignment="Center" Margin="0,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="Password" HorizontalAlignment="Center" Margin="0,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Name="Autorizate" Content="Login" HorizontalAlignment="Center" Margin="0,269,0,0" VerticalAlignment="Top" Width="64" Click="Autorizate_Click"/>
-        <Label Name="lbNumberPhone" Content="Phone" HorizontalAlignment="Left" Margin="140,120,0,0" VerticalAlignment="Top" Width="69"/>
-        <Label Name="lbPassword" Content="Password" HorizontalAlignment="Left" Margin="140,178,0,0" VerticalAlignment="Top" Width="69"/>
-        <Button Content="Registration" HorizontalAlignment="Center" Margin="0,313,0,0" VerticalAlignment="Top" Click="Registration_Click"/>
+        <Button Name="Autorizate" Content="Авторизуватися" HorizontalAlignment="Center" Margin="0,269,0,0" VerticalAlignment="Top" Width="95" Click="Autorizate_Click"/>
+        <Label Name="lbNumberPhone" Content="Номер телефону" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Name="lbPassword" Content="Пароль" HorizontalAlignment="Left" Margin="140,178,0,0" VerticalAlignment="Top" Width="69"/>
+        <Button Content="Зареєструватися" HorizontalAlignment="Center" Margin="0,313,0,0" VerticalAlignment="Top" Click="Registration_Click"/>
     </Grid>
 </Window>

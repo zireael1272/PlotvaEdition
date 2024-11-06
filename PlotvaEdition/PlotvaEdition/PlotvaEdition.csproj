@@ -291,14 +291,26 @@
     <Compile Include="Views\ChangeData.xaml.cs">
       <DependentUpon>ChangeData.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ChangePassword.xaml.cs">
+      <DependentUpon>ChangePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChoiceParameters.xaml.cs">
+      <DependentUpon>ChoiceParameters.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ControlPackageUsers.xaml.cs">
       <DependentUpon>ControlPackageUsers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\CreateAcc.xaml.cs">
       <DependentUpon>CreateAcc.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Departaments.xaml.cs">
+      <DependentUpon>Departaments.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\HistoryPackage.xaml.cs">
       <DependentUpon>HistoryPackage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InterDataReceiver.xaml.cs">
+      <DependentUpon>InterDataReceiver.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainScreenOperator.xaml.cs">
       <DependentUpon>MainScreenOperator.xaml</DependentUpon>
@@ -332,6 +344,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ChangePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ChoiceParameters.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ControlPackageUsers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -340,7 +360,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Departaments.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\HistoryPackage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\InterDataReceiver.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

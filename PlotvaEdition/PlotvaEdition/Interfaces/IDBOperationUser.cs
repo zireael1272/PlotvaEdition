@@ -13,8 +13,11 @@ namespace PlotvaEdition.Interfaces
         string GetUserDetails(string phone, string password);
         bool DeleteUser(string phone, string password);
         Users AuthenticateUser(string phone, string password);
-        //bool AddParcel();
+        void AddParcel(string SenderPhone, string SenderName, string SenderSurname, string SenderPatronymic, 
+            string ReceiverPhone, string ReceiverName, string ReceiverSurname, string ReceiverPatronymic, decimal Weight, 
+            DateTime DispatchDate, DateTime DeliveryDate, OrderStatus Status, int Integrity);
         bool UpdateUserDetails(string phone, string newName, string newSurname, string newPatronymic);
+        bool UpdatePassword(string phone, string newPassword);
 
     }
 }
