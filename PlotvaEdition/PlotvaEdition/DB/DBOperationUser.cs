@@ -149,28 +149,31 @@ namespace PlotvaEdition.DB
             }
         }
 
-        public void AddParcel(string SenderPhone, string SenderName, string SenderSurname, string SenderPatronymic, 
-            string ReceiverPhone, string ReceiverName, string ReceiverSurname, string ReceiverPatronymic, 
-            decimal Weight, DateTime DispatchDate, DateTime DeliveryDate, OrderStatus Status, int Integrity)
+        public void AddParcel(string SenderPhone, string SenderName, string SenderSurname, string SenderPatronymic,string SenderDepartament, 
+            string ReceiverPhone, string ReceiverName, string ReceiverSurname, string ReceiverPatronymic, string ReceiverDepartament, 
+            decimal Weight, DateTime DispatchDate, DateTime DeliveryDate, int Integrity)
         {
+            var status = context.OrderStatus.FirstOrDefault(s => s.StatusName == "В обробці");
             var newParcel = new Parcel
             {
                 SenderPhone = SenderPhone,
                 SenderName = SenderName,
                 SenderSurname = SenderSurname,
                 SenderPatronymic = SenderPatronymic,
+                SenderDepartament = SenderDepartament,
                 ReceiverPhone = ReceiverPhone,
                 ReceiverName = ReceiverName,
                 ReceiverSurname = ReceiverSurname,
                 ReceiverPatronymic = ReceiverPatronymic,
+                ReceiverDepartament = ReceiverDepartament,
                 Weight = Weight,
                 DispatchDate = DispatchDate,
                 DeliveryDate = DeliveryDate,
-                Status = Status,
+                Status = status,
                 Integrity = Integrity
             };
 
-            context.Parcels.Add(newParcel);
+            context.Parcel.Add(newParcel);
             context.SaveChanges();
         }
     }

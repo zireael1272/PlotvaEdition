@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\choiceparameters.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\choiceparameters.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|c:\\users\\user\\desktop\\plotvaedition\\plotvaedition\\plotvaedition\\views\\choiceparameters.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\choiceparameters.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\db\\dboperationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\db\\dboperationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\addparcel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\addparcel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\choiceparameters.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\choiceparameters.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\views\\addparcel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\views\\addparcel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\plotvaedition\\db\\dboperationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57292806-308D-4894-9D8E-F5A53F895536}|PlotvaEdition\\PlotvaEdition.csproj|solutionrelative:plotvaedition\\db\\dboperationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ChoiceParameters.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\ChoiceParameters.xaml.cs",
               "RelativeDocumentMoniker": "PlotvaEdition\\Views\\ChoiceParameters.xaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\ChoiceParameters.xaml.cs",
               "RelativeToolTip": "PlotvaEdition\\Views\\ChoiceParameters.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T11:33:55.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ChoiceParameters.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\ChoiceParameters.xaml",
               "RelativeDocumentMoniker": "PlotvaEdition\\Views\\ChoiceParameters.xaml",
@@ -63,20 +63,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AddParcel.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\AddParcel.xaml.cs",
               "RelativeDocumentMoniker": "PlotvaEdition\\Views\\AddParcel.xaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\AddParcel.xaml.cs",
               "RelativeToolTip": "PlotvaEdition\\Views\\AddParcel.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDMAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDEAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T15:09:59.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddParcel.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\Views\\AddParcel.xaml",
               "RelativeDocumentMoniker": "PlotvaEdition\\Views\\AddParcel.xaml",
@@ -88,15 +88,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DBOperationUser.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DBOperationUser.cs",
               "RelativeDocumentMoniker": "PlotvaEdition\\DB\\DBOperationUser.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PlotvaEdition\\PlotvaEdition\\PlotvaEdition\\DB\\DBOperationUser.cs",
               "RelativeToolTip": "PlotvaEdition\\DB\\DBOperationUser.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAmwKwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAADwv7AAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:02:49.047Z"
+              "WhenOpened": "2024-10-24T11:02:49.047Z",
+              "EditorCaption": ""
             }
           ]
         }

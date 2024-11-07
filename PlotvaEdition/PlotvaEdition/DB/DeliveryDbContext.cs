@@ -13,8 +13,8 @@ namespace PlotvaEdition.Models
     public class DeliveryDbContext : DbContext
     {
         public DbSet<Users> Users { get; set; }
-        public DbSet<Parcel> Parcels { get; set; }
-        public DbSet<OrderStatus> OrderStatuses { get; set; }
+        public DbSet<Parcel> Parcel { get; set; }
+        public DbSet<OrderStatus> OrderStatus { get; set; }
         public DbSet<Payments> Payments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

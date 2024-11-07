@@ -33,10 +33,13 @@ namespace PlotvaEdition.Models
         public string SenderPatronymic { get; set; }
 
         [Required]
+        [MaxLength(150)]
+        public string SenderDepartament { get; set; }
+
+        [Required]
         [MaxLength(10)]
         public string ReceiverPhone { get; set; }
 
-        [ForeignKey("ReceiverPhone")]
         public Users Receiver { get; set; }
 
         [Required]
@@ -50,6 +53,10 @@ namespace PlotvaEdition.Models
         [Required]
         [MaxLength(50)]
         public string ReceiverPatronymic { get; set; }
+
+        [Required]
+        [MaxLength(150)]
+        public string ReceiverDepartament { get; set; }
 
         [Required]
         public decimal Weight { get; set; }

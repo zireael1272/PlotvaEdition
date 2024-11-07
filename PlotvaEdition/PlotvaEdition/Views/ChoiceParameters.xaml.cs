@@ -3,6 +3,7 @@ using PlotvaEdition.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -53,6 +54,10 @@ namespace PlotvaEdition.Views
 
         private void Next_Click(object sender, RoutedEventArgs e)
         {
+            decimal.TryParse(SelectedWeight.Text, out decimal Weight);
+            DateTime? selectedDeliveryDate = DeliveryDate.SelectedDate;
+            DateTime deliveryDate = selectedDeliveryDate.Value;
+
             string[] lines = FullDataReceiver.Split('\n');
 
             if (lines.Length >= 2)
@@ -63,10 +68,13 @@ namespace PlotvaEdition.Views
 
                 if (nameParts.Length >= 3)
                 {
-                    string name = nameParts[0];
-                    string surname = nameParts[1];
-                    string patronymic = nameParts[2];
+                    string Receivername = nameParts[0];
+                    string Receiversurname = nameParts[1];
+                    string Receiverpatronymic = nameParts[2];
 
+                    dbOperation.AddParcel(user.Phone, user.Name, user.Surname, user.Patronymic, SenderDepartament, 
+                        phoneReceiver, Receivername, Receiversurname, Receiverpatronymic, ReceiverDepartament,
+                        Weight, DateTime.Now, deliveryDate, 1);
                 }
             }
         }
