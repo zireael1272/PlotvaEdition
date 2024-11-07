@@ -181,3 +181,5 @@ C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\Departaments.baml
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\InterDataReceiver.g.cs
 C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\InterDataReceiver.baml
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\ChoiceParameters.g.cs
+C:\Users\User\Desktop\PlotvaEdition\PlotvaEdition\PlotvaEdition\obj\Debug\Views\ChoiceParameters.baml

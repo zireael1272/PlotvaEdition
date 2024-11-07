@@ -47,11 +47,18 @@ namespace PlotvaEdition.Views
         {
             if(selectedDepartment.Content == null || DepartmentReceiver.Content == null || ReceiverFullData.Content == null)
             {
-                MessageBox.Show("", "ну ніху не заповнено, ти бєздарь");
+                MessageBox.Show("", "ну ніху не заповнено, ти, бєздарь");
+            }
+            else if(DepartmentReceiver.Content.ToString() == selectedDepartment.Content.ToString())
+            {
+                MessageBox.Show("", "ти шо от себе собі перешлеш чепуха");
             }
             else
             {
-                //parent.Content = new 
+                string SenderDepartament = selectedDepartment.Content.ToString();
+                string ReceiverDepartament = DepartmentReceiver.Content.ToString();
+                string FullDataReceiver = ReceiverFullData.Content.ToString();
+                parent.MainFrame.Content = new ChoiceParameters(user, parent, SenderDepartament, ReceiverDepartament, FullDataReceiver);
             }
         }
 

@@ -9,6 +9,21 @@
       Title="ChoiceParameters">
 
     <Grid Background="White">
-        
+        <Button Name="Back" Content="Назад" HorizontalAlignment="Left" Margin="20,18,0,0" VerticalAlignment="Top" Background="Transparent" BorderThickness="0" FontSize="14"/>
+        <StackPanel Orientation="Vertical" Margin="100,53,100,282">
+            <TextBlock Text="Вага посилки:" FontSize="16" Margin="90,0,0,10"/>
+
+            <TextBlock Name="SelectedWeight" FontSize="16" Margin="90,10,0,0"/>
+            <Slider Name="WeightSlider" Minimum="0.5" Maximum="30" Width="400"
+            IsSnapToTickEnabled="True" TickPlacement="BottomRight" 
+            AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="1"
+            ValueChanged="WeightSlider_ValueChanged">
+
+                <Slider.Ticks>
+                    <DoubleCollection>0.5, 1, 2, 5, 10, 20, 30, 31</DoubleCollection>
+                </Slider.Ticks>
+            </Slider>
+        </StackPanel>
+        <Button Name="Next" Content="Далі" HorizontalAlignment="Center" Margin="0,393,0,0" VerticalAlignment="Top" Width="100" Height="25" Click="Next_Click"/>
     </Grid>
 </Page>
